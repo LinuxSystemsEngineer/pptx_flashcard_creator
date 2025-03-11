@@ -81,6 +81,7 @@ Exits and closes the program.
 ---
 
 📂 Project Directory
+
  ├── 📝 main.py          # Main script
  
  ├── 📜 requirements.txt  # Required Python packages
