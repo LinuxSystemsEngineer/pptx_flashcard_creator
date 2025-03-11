@@ -60,17 +60,17 @@ python3 main.py
 
 1️⃣ Create a New Set of Flashcards
 
-Please enter a question and its corresponding answer.
+- Please enter a question and its corresponding answer.
 
-Repeat the process for multiple flashcard sets.
+- Repeat the process for multiple flashcard sets.
 
-The flashcard sets save to the output.pptx file located in the ./output directory.
+- The flashcard sets save to the output.pptx file located in the ./output directory.
 
 ---
 
 2️⃣ Exit
 
-Exits and closes the program.
+- Exits and closes the program.
 
 ---
 
