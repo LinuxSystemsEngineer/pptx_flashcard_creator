@@ -85,8 +85,6 @@ Exits and closes the program.
 
 
 
----
-
 💡 Notes
 
 ---
