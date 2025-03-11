@@ -40,7 +40,7 @@ git clone https://github.com/LinuxSystemsEngineer/pptx_flashcard_creator.git
 cd pptx_flashcard_creator
 ```  
 
---
+---
 
 📦 **Create a segmented python virtual environment:**
 
