@@ -78,12 +78,6 @@ Exits and closes the program.
 
 📂 File Structure
 
-
-
----
-
-
-
 📂 Project Directory
  ├── 📝 main.py          # Main script
  ├── 📜 requirements.txt  # Required Python packages
