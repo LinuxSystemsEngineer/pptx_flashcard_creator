@@ -1,82 +1,115 @@
-# PowerPoint Flashcard Creator
+# 🎓 PowerPoint Flashcard Creator 📑
 
-## Overview
+## 💡 Overview
 
-The **PowerPoint Flashcard Creator** is a Python-based command-line application that allows users to generate digital flashcards in PowerPoint (.pptx) format. This tool improves studying, presentations, and knowledge reinforcement. Users can input questions and answers, and the program formats them as slides in a PowerPoint file.
+The PowerPoint Flashcard Creator is a Python-based command-line program that allows end-users to generate computerized flashcards in PowerPoint (.pptx) format. This tool enhances learning, studying, presentations, and memorization. End-users type questions and answers, and the program formats them as slide sets in the PowerPoint (.pptx) file.
 
-## Functions
+---
 
--   **Interactive Command-Line Interface**: Users create flashcards through a step-by-step guided process.
+## ⚙️ Functions
 
--   **Automatic PowerPoint Generation**: Questions and answers are neatly formatted and saved into slides.
+- **🖥️ Interactive Command-Line Interface** – End-users create flashcards through a guided process.
 
--   **Incremental Set Numbering**: Flashcard sets are numbered sequentially (e.g., Set 001, Set 002, etc.).
+- **📑 Automatic PowerPoint Generation** – The program saves questions and answers to the main PowerPoint file.
 
--   **Auto-Save Feature**: The program saves the generated PowerPoint file to the ./output directory
+- **🔢 Incremental Set Numbering** – Flashcard sets are numbered sequentially (e.g., Set 001, Set 002).
 
--   **Screen Clearing**: The program clears the terminal screen before displaying the main menu for better readability.
+- **💾 Auto-Save Feature** – The program saves the generated PowerPoint file in the `./output` directory.
 
-### Installation Requirements
+- **🧹 Screen Clearing** – The terminal screen clears before displaying the main menu for better readability.
 
-Python version 3.11 or newer.
+---
 
-Install the required packages using the following CLI command:
+## 🚀 Installation Requirements
+
+🛠️ **Python Version:** 3.11 or newer  
+
+---
+
+📦 **Install Required Packages:**  
+
+Run the following command:
 
 ```bash
 pip3 install -r requirements.txt
 ```
+---
 
-### Program Libraries
+📚 Program Libraries
 
--   python-pptx: Enables PowerPoint slide creation.
+---
 
--   Pillow: Used for handling images (potential future use).
+🖼️ python-pptx – Enables PowerPoint slide creation.
 
-## Usage
+🖌️ Pillow – Used for handling images (future enhancement).
 
-Run the program using the following CLI command:
+---
+
+⚙️ Usage
+
+Run the program using:
 
 ```bash
-
-python main.py
-
+python3 main.py
 ```
+---
 
-### Menu Options
+📜 Menu Options
 
-1️⃣ **Create a New Set of Flashcards**
+---
 
--   Please enter a question and its corresponding answer.
--   Repeat the process for multiple flashcards.
--   The flashcards save the filename output.pptx in the ./output directory.
+1️⃣ Create a New Set of Flashcards
 
-2️⃣ **Exit**
+Please enter a question and its corresponding answer.
 
--   The Exit option closes the program.
+Repeat the process for multiple flashcard sets.
 
-## File Structure
+The flashcard sets save to the output.pptx file located in the ./output directory.
+
+---
+
+2️⃣ Exit
+
+Exits and closes the program.
+
+---
+
+📂 File Structure
+
+---
 
 📂 Project Directory
+ ├── 📝 main.py          # Main script
+ ├── 📜 requirements.txt  # Required Python packages
+ ├── 📁 output/          # Auto-generated PowerPoint files
 
-├── main.py # Main script
+---
 
-├── requirements.txt # Required Python packages
+💡 Notes
 
-├── output/ # Auto-generated PowerPoint files
+---
 
-## Notes
+📁 The program automatically creates the ./output directory if it does not exist.
 
--   The program ensures that the ./output directory exists before saving files.
--   The current version supports text-based flashcards.
+📝 The current version supports only text-based flashcards.
 
-## Future Enhancements
+---
 
--   Adding support for image-based flashcards.
-    
--   Custom styling options for PowerPoint slides.
-    
--   GUI-based version for enhanced user experience.
+🌟 Future Enhancements
 
-## License
+---
+🔹 🖼️ Image-Based Flashcards – End-users can insert images into flashcards.
 
-This project is open-source and can be modified as needed. Contributions and improvements are welcome!
+🔹 🎨 Custom Slide Styling – Options to modify font styles, colors, and layouts.
+
+🔹 🖥️ GUI-Based Version – A graphical user interface for enhanced user experience.
+
+---
+
+📜 License
+
+---
+
+This project is free, open-source software and can be shared, reused, and modified as needed. Please see the MIT license.
+
+---
