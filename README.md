@@ -26,6 +26,39 @@ The PowerPoint Flashcard Creator is a Python-based command-line program that all
 
 ---
 
+📦 **Use the git command to clone this GitHub repository**  
+
+```bash
+git clone https://github.com/LinuxSystemsEngineer/pptx_flashcard_creator.git
+```
+
+---
+
+📦 **Change Directories into your newly cloned GitHub repository:**
+
+```bash
+cd pptx_flashcard_creator
+```  
+
+--
+
+📦 **Create a segmented python virtual environment:**
+
+```bash
+python3 -m venv .segment
+```
+
+---
+
+📦 **Activate the segmented python virtual environment:**    
+
+```bash
+source .segment/bin/activate
+```
+
+---
+
+
 📦 **Install Required Packages:**  
 
 Run the following command:
